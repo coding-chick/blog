@@ -8,6 +8,8 @@
 
   .navbar-brand {
     padding: 0px 15px;
+    align-items: center;
+
     @media (max-width: 768px) {
       padding: 0;
       height: 6vh;
