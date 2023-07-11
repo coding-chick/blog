@@ -6,6 +6,8 @@
   line-height: 1.6;
   overflow: hidden;
   white-space: nowrap;
+  display: none;
+
   @media (max-width: 768px){
     margin-left: 0;
   }
