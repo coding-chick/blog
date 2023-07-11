@@ -1,30 +1,33 @@
 #baseURL = 'https://effie.io/'
 languageCode = 'en'
 theme = "JuiceBar"
-title = "JuiceBar"
+title = "Effie's Blog"
 
 [params]
 author = "Effie Barak"
 description = "Where I blog technical stuff and share my talks"
-authorImage = "/images/profile.jpg"
+authorImage = "/images/author.jpeg"
 paginate = 5
 
-Title = "JuiceBar"
-content = "I'm JuiceBar, nice to meet you(ˊ˘ˋ*)♡"
+Title = "Effie's Blog"
+content = "Hi, I'm Effie, an Android Expert and GDE, welcome to my blog!"
 imageUrl = "/images/avatar.jpg"
 # To add a new social icon (More social icons can be found in JuiceBar\layouts\partials\svg.html.)
 [[params.social]]
 name = "Github"
-url = "https://github.com/hotjuicew"
+url = "https://github.com/coding-chick"
 [[params.social]]
-name = "telegram"
-url = "https://t.me/Hotjuice"
+name = "speakerdeck"
+url = "https://speakerdeck.com/codingchick"
 [[params.social]]
 name = "twitter"
-url = "https://twitter.com/hotjuicee"
+url = "https://twitter.com/codingchick"
+[[params.social]]
+name = "mastodon"
+url = "https://androiddev.social/@effie"
 [[params.social]]
 name = "email"
-url = "mailto:imjiaying@outlook.com"
+url = "mailto:efratbarak@gmail.com"
 
 [taxonomies]
 category = "categories"
@@ -35,22 +38,7 @@ name = "About"
 url = "/about"
 [[menu.main]]
 name = "Blog"
-url = "/post"
-[[menu.main]]
-name = "Categories"
-url = "/categories"
-
-[params.giscus]
-repo = "hotjuicew/blog"
-repoID = "R_kgDOHHQOuw"
-category = "Announcements"
-categoryID = "DIC_kwDOHHQOu84CWCQ3"
-mapping = "og:title"
-reactionsEnabled = "1"
-emitMetadata = "0"
-inputPosition = "bottom"
-lang = "en"
-loading = "lazy"
+url = "/post"       
 
 # Used for outputting the documentation (required).
 [outputs]

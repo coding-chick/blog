@@ -21,6 +21,10 @@ main {
   flex-basis: auto;
 }
 
+b,strong {
+  font-weight: 800;
+}
+
 header,
 footer {
   flex-grow: 0;
@@ -101,11 +105,11 @@ button {
 }
 
 a {
-  color: $main-black;
+  color: #3273dc;
 }
 
 .dark-mode a {
-  color: $dark-font;
+  color: #3273dc;
 }
 .dark-mode .content h1, .dark-mode .content h2, .dark-mode .content h3, .dark-mode .content h4, .dark-mode .content h5, .dark-mode .content h6 {
   color: $dark-font;
