@@ -4,6 +4,7 @@
   height: 6vmin;
   @media (max-width: 768px) {
     height: 6vh;
+    padding-left: 16px;
   }
 
   .navbar-brand {
@@ -28,7 +29,7 @@
   .navbar-menu {
     background-color: $main-light;
     font-size: 1.1rem;
-
+    padding-top: 4px;
   }
   .dark-mode .navbar-menu {
     background-color: $dark-navbar;
