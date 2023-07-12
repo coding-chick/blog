@@ -37,7 +37,7 @@ category = "categories"
 name = "About"
 url = "/about"
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 url = "/post"       
 
 # Used for outputting the documentation (required).
